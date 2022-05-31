@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e60d1ef5.css",
-    "main.js": "/static/js/main.ce850312.js",
-    "static/js/787.028157ea.chunk.js": "/static/js/787.028157ea.chunk.js",
-    "index.html": "/index.html",
-    "static/media/icon-dice.svg": "/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
-    "static/media/pattern-divider-desktop.svg": "/static/media/pattern-divider-desktop.ed9685263f6b47d21c8848f7d8bdd10e.svg",
-    "main.e60d1ef5.css.map": "/static/css/main.e60d1ef5.css.map",
-    "main.ce850312.js.map": "/static/js/main.ce850312.js.map",
-    "787.028157ea.chunk.js.map": "/static/js/787.028157ea.chunk.js.map"
+    "main.css": "./static/css/main.e60d1ef5.css",
+    "main.js": "./static/js/main.e02d8648.js",
+    "static/js/787.028157ea.chunk.js": "./static/js/787.028157ea.chunk.js",
+    "index.html": "./index.html",
+    "static/media/icon-dice.svg": "./static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
+    "static/media/pattern-divider-desktop.svg": "./static/media/pattern-divider-desktop.ed9685263f6b47d21c8848f7d8bdd10e.svg",
+    "main.e60d1ef5.css.map": "./static/css/main.e60d1ef5.css.map",
+    "main.e02d8648.js.map": "./static/js/main.e02d8648.js.map",
+    "787.028157ea.chunk.js.map": "./static/js/787.028157ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e60d1ef5.css",
-    "static/js/main.ce850312.js"
+    "static/js/main.e02d8648.js"
   ]
 }
