@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+body {
+  background-color: hsl(218, 23%, 16%);
+}
+
+.AdviceMessage {
+  color: hsl(193, 38%, 86%);
+  padding: 1.5%;
+}
+
+.AdviceNum {
+  color: hsl(150, 100%, 66%);
+  padding: 1.5%;
+  font-size: 14px;
+}
+
+.Container {
+  position: relative;
+  max-width: 300px;
+  min-width: 200px;
+  margin: 7.5% 33%;
+  text-align: center;
+  font-family: "Marope", sans-serif;
+  position: relative;
+}
+
+.MessageContainer {
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 25px;
+  padding-top: 1.5%;
+  padding-bottom: 20%;
+  z-index: 0;
+  position: relative;
+}
+
+.Divider {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 1.5% 2.5%;
+}
+
+.Randomizer {
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 100%;
+  width: 75px;
+  height: 75px;
+  margin-top: -12.5%;
+  margin-bottom: 0;
+  border: none;
+  z-index: 2;
+  position: relative;
+  border-color: none;
+}
+
+.Randomizer:hover  {
+    box-shadow: 0 0 50px 25px hsl(150, 100%, 66%, 0.5);
+}
+
