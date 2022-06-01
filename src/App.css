@@ -54,6 +54,20 @@ body {
   border-color: none;
 }
 
+.Randomizer-Deactive {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 100%;
+  width: 75px;
+  height: 75px;
+  margin-top: -12.5%;
+  margin-bottom: 0;
+  border: none;
+  z-index: 2;
+  position: relative;
+  border-color: none;
+}
+
+
 .Randomizer:hover  {
     box-shadow: 0 0 50px 25px hsl(150, 100%, 66%, 0.5);
 }
