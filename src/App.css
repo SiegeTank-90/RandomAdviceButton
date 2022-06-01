@@ -55,7 +55,7 @@ body {
 }
 
 .Randomizer-Deactive {
-  background-color: hsl(0, 0%, 20%);
+  background-color: hsl(0, 0%, 73%);
   border-radius: 100%;
   width: 75px;
   height: 75px;
@@ -67,8 +67,12 @@ body {
   border-color: none;
 }
 
-
-.Randomizer:hover  {
-    box-shadow: 0 0 50px 25px hsl(150, 100%, 66%, 0.5);
+.Randomizer:hover {
+  box-shadow: 0 0 50px 25px hsl(150, 100%, 66%, 0.5);
 }
 
+@media only screen and (max-width: 400px) {
+  .Container {
+    margin: 15% 15%;
+  }
+}
