@@ -11,7 +11,7 @@ function App() {
 
   const [adviceMessage, setAdviceMessage] = useState("");
   const [adviceID, setAdviceID] = useState("");
-  const [activeState, setActiveState] = useState("Randomizer")
+  const [activeState, setActiveState] = useState("Randomizer");
 
   async function GetAdvice() {
     let response = await axios.get("https://api.adviceslip.com/advice");
@@ -20,24 +20,28 @@ function App() {
     } catch (error) {
       console.log(error);
     }
-    setActiveState("Randomizer-Deactive")
+    setActiveState("Randomizer-Deactive");
     setAdviceMessage(response.data.slip.advice);
     setAdviceID(response.data.slip.id);
-    setTimeout( () => {setActiveState("Randomizer")}, 2000)
+    setTimeout(() => {
+      setActiveState("Randomizer");
+    }, 2000);
   }
 
   return (
     <div className="Container">
-      <div className="MessageContainer">
-        <h3 className="AdviceNum">advice #{adviceID}</h3>
-        <h1 className="AdviceMessage">{adviceMessage}</h1>
-        <div className="Divider">
-          <img src={desktopDivider} alt="divider" />"
+      <div className="Box">
+        <div className="MessageContainer">
+          <h3 className="AdviceNum">advice #{adviceID}</h3>
+          <h1 className="AdviceMessage">{'"' + adviceMessage + '"'}</h1>
+          <div className="Divider">
+            <img src={desktopDivider} alt="divider" />
+          </div>
         </div>
+        <button className={activeState} onClick={GetAdvice}>
+          <img src={dice} alt="dice" />
+        </button>
       </div>
-      <button className={activeState} onClick={GetAdvice}>
-        <img src={dice} alt="dice"  />
-      </button>
     </div>
   );
 }
